@@ -12,7 +12,7 @@ document.getElementById('btn-login').addEventListener('click', function(event){
     if(PHN==='017' && PIN==='1234')
     {
         console.log('Welcome , i love you');
-        window.location.href = '/home.html';
+        window.location.href = 'js/home.html';
     }
     else{
         alert('Fuck you');
